@@ -1,0 +1,16 @@
+footer{
+background-color: map-get($colores ,"negro");
+}  
+#foot{
+    ul{
+      li{
+        @include listaHeader;  
+      }
+    }
+} 
+.iconoWhuas{
+  position:fixed;
+  bottom: 20px;
+  right: 20px;
+  width: 5%;
+  }   
